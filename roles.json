@@ -1,0 +1,26 @@
+[
+  {
+    "model": "users.role",
+    "pk": 1,
+    "fields": {
+      "name": {"en": "Admin", "uz":"Admin"},
+      "unique_name": "admin"
+    }
+  },
+  {
+    "model": "users.role",
+    "pk": 2,
+    "fields": {
+      "name": {"en": "Server", "uz":"Ofitsiant"},
+      "unique_name": "server"
+    }
+  },
+  {
+    "model": "users.role",
+    "pk": 3,
+    "fields": {
+      "name": {"en": "Client", "uz":"Mijoz"},
+      "unique_name": "client"
+    }
+  }
+]
